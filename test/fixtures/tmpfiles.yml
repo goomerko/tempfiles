@@ -1,0 +1,26 @@
+# == Schema Information
+# Schema version: 20080917145010
+#
+# Table name: tmpfiles
+#
+#  id               :integer         not null, primary key
+#  size             :integer
+#  filename         :string(255)
+#  checksum         :string(255)
+#  content_type     :string(255)
+#  destroy_datetime :datetime
+#  created_at       :datetime
+#  updated_at       :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  checksum: MyString
+  name: MyString
+  destroy_datetime: 2008-09-17 16:50:10
+
+two:
+  checksum: MyString
+  name: MyString
+  destroy_datetime: 2008-09-17 16:50:10
