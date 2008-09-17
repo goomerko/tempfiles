@@ -2,7 +2,7 @@ class CreateTmpfiles < ActiveRecord::Migration
   def self.up
     create_table :tmpfiles do |t|
       t.integer :size 
-      t.string :filename, :checksum, :content_type
+      t.string :filename, :hexkey, :content_type
       t.datetime :destroy_datetime
 
       t.timestamps

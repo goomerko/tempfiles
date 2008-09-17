@@ -1,15 +1,34 @@
-<h1> New file </h1>
+<h1> TempFiles </h1>
 
-<% form_for @tmpfile, :html => {:multipart => true} do |f| %>
+<% form_for :tmpfile, :url => {:action => 'create'},
+  :html => {:multipart => true} do |f| %>
   <%= f.error_messages %>
 
-    <p>
-      <%= f.label :uploaded_data %> <br/>
-      <%= f.file_field :uploaded_data %>
-    </p>
-
   <p>
-    <%= f.submit "Create" %>
+    <%= f.label :uploaded_data, "Subir nuevo fichero:" %> <br/>
+    <%= f.file_field :uploaded_data %>
   </p>
 
+  <p>
+    <%= f.submit "Subir" %>
+  </p>
+
+<% end %>
+
+
+<% unless @tmpfile_collection.empty? %>
+<hr/>
+  <p>Ficheros subidos:</p>
+<ul>
+  <% @tmpfile_collection.each do |tmpfile|%>
+    <li>
+      <p><%=h tmpfile.filename %></p>
+      <p>
+        <%= link_to "#{root_url}#{tmpfile.hexkey}",
+          "#{root_url}#{tmpfile.hexkey}"%>
+      </p>
+      <p>Caducidad <%= tmpfile.destroy_datetime %></p>
+    </li>
+  <% end %>
+</ul>
 <% end %>

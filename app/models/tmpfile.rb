@@ -22,10 +22,14 @@ class Tmpfile < ActiveRecord::Base
 
   validates_as_attachment
 
-  before_validation_on_create :set_checksum
+  before_validation_on_create :set_checksum, :set_destroy_datetime
 
 
   def set_checksum
-    self.checksum = MD5.md5 self.uploaded_data
+    self.hexkey = Digest::SHA1.hexdigest(Time.now.to_s + rand(12341234).to_s)[1..8]
+  end
+
+  def set_destroy_datetime
+    self.destroy_datetime = Time.now + 3.days
   end
 end

@@ -1,9 +1,11 @@
 class TmpfilesController < ApplicationController
+
+  before_filter :find_tmpfile, :only => [:show, :download]
   # GET /tmpfiles
   # GET /tmpfiles.xml
   def index
     @tmpfile = Tmpfile.new
-
+    @tmpfile_collection = get_tmpfiles_from_session
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @tmpfile }
@@ -11,10 +13,12 @@ class TmpfilesController < ApplicationController
   end
 
   # GET /b3sdgpqi38fnapi237c
-  def download
-    checksum = params[:checksum]
+  def show
+  end
 
-    render :inline => 'downloading...'
+  # GET /download/qi38fnapi
+  def download
+    send_file @tmpfile.public_filename, :filename => @tmpfile.filename
   end
   
   # POST /tmpfiles
@@ -23,6 +27,7 @@ class TmpfilesController < ApplicationController
     @tmpfile = Tmpfile.new(params[:tmpfile])
     if @tmpfile.save
       flash[:notice] = 'Fichero guardado correctamente'
+      save_in_session @tmpfile
     else
       flash[:error] = 'No se pudo guardar el fichero'
     end
@@ -30,4 +35,38 @@ class TmpfilesController < ApplicationController
     redirect_to :action => :index
   end
 
+  ####### PRIVATE
+  private
+  
+  def find_tmpfile
+    @tmpfile = Tmpfile.find_by_hexkey(params[:hexkey])
+
+    redirect_to root_path if @tmpfile.nil?
+  end
+
+  def save_in_session(tmpfile)
+    session[:tmpfiles] ||= Array.new
+    cleanup_session
+    session[:tmpfiles] << tmpfile.id
+    session[:tmpfiles].uniq!
+  end
+
+
+  def cleanup_session
+    session[:tmpfiles].each do |tmp_id|
+      tmpfile = Tmpfile.find_by_id tmp_id
+      session[:tmpfiles].delete(tmp_id) if tmpfile.nil?
+    end
+  end
+
+
+  def get_tmpfiles_from_session
+    tmpfiles = Array.new
+    session[:tmpfiles] ||= Array.new
+    session[:tmpfiles].reverse.each do |tmp_id|
+      tmpfile = Tmpfile.find_by_id tmp_id
+      tmpfiles << tmpfile unless tmpfile.nil?
+    end
+    tmpfiles
+  end
 end
