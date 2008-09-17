@@ -41,7 +41,10 @@ class TmpfilesController < ApplicationController
   def find_tmpfile
     @tmpfile = Tmpfile.find_by_hexkey(params[:hexkey])
 
-    redirect_to root_path if @tmpfile.nil?
+    if @tmpfile.nil?
+      flash[:error] = "No existe el fichero seleccionado"
+      redirect_to root_path
+    end
   end
 
   def save_in_session(tmpfile)

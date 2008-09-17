@@ -17,4 +17,5 @@ production:
   adapter: postgresql
   database: tempfiles_prod
   username: tempfiles
+  host: localhost
   password: t3mpfi13s
