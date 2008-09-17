@@ -1,6 +1,8 @@
 set :application, "TempFiles"
 set :repository, "git@github.com:goomerko/tempfiles.git"
-
+set :branch, :master
+#set :deploy_via, :remote_cache
+set :ssh_options, { :forward_agent => true }
 
 
 if ENV['TEMPFILES_ENV'] == 'production'
