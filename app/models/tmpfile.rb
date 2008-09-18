@@ -36,6 +36,8 @@ class Tmpfile < ActiveRecord::Base
 
   # Borra los ficheros ya caducados
   def self.cleanup
-    Tmpfile.destroy_all(["destroy_datetime < ?", Time.now])
+    tmpfiles = Tmpfile.find(:all,
+      :conditions => ["destroy_datetime < ?", Time.now])
+    tmpfiles.each {|f| f.destroy}
   end
 end
