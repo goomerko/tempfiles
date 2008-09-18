@@ -52,6 +52,9 @@ Rails::Initializer.run do |config|
     :secret      => '9f9970227ac2545868c0a0857839caae6c2fe0dbc494d9590a29bc3857bbfc3ae01ae438581d2ec377dc04a37f75aa6aeaad75684f048647ad03c2954bfa7453'
   }
 
+  config.gem "gettext", :lib => "gettext/rails"
+
+
   # Use the database for sessions instead of the cookie-based default,
   # which shouldn't be used to store highly confidential information
   # (create the session table with "rake db:sessions:create")

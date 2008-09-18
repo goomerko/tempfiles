@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: tmpfiles 1.0.0\n"
+"POT-Creation-Date: 2008-09-18 10:06+0200\n"
+"PO-Revision-Date: 2008-09-18 09:52+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: app/models/tmpfile.rb:-
+msgid "tmpfile"
+msgstr ""
+
+#: app/models/tmpfile.rb:-
+msgid "Tmpfile|Size"
+msgstr ""
+
+#: app/models/tmpfile.rb:-
+msgid "Tmpfile|Filename"
+msgstr ""
+
+#: app/models/tmpfile.rb:-
+msgid "Tmpfile|Hexkey"
+msgstr ""
+
+#: app/models/tmpfile.rb:-
+msgid "Tmpfile|Content type"
+msgstr ""
+
+#: app/models/tmpfile.rb:-
+msgid "Tmpfile|Destroy datetime"
+msgstr ""
+
+#: app/models/tmpfile.rb:-
+msgid "Tmpfile|Created at"
+msgstr ""
+
+#: app/models/tmpfile.rb:-
+msgid "Tmpfile|Updated at"
+msgstr ""
+
+#: app/views/tmpfiles/index.html.erb:8
+msgid "Upload new file:"
+msgstr "Subir nuevo fichero"
+
+#: app/views/tmpfiles/index.html.erb:13
+msgid "Upload"
+msgstr "Subir"
+
+#: app/views/tmpfiles/index.html.erb:21
+msgid "Uploaded files:"
+msgstr "Ficheros subidos"
+
+#: app/views/tmpfiles/index.html.erb:30
+msgid "The file will be destroyed on"
+msgstr "El fichero se borrará en"
+
+#: app/views/tmpfiles/show.html.erb:3
+msgid "Download"
+msgstr "Descargar"
+
+#: app/views/tmpfiles/show.html.erb:6
+msgid "You can return to"
+msgstr "Puedes volver al"
+
+#: app/views/tmpfiles/show.html.erb:6
+msgid "home"
+msgstr "inicio"
+
+#: app/views/tmpfiles/show.html.erb:7
+msgid "for upload a new file"
+msgstr "para subir un fichero nuevo"

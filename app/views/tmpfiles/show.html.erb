@@ -1,7 +1,7 @@
 <h1><%= @tmpfile.filename %></h1>
 
-<p><%= link_to "Descargar", :action => 'download',
+<p><%= link_to _("Download"), :action => 'download',
     :hexkey => @tmpfile.hexkey%></p>
 
-<p>Puedes volver al <%= link_to "inicio", root_path %>
-para subir algún fichero </p>
+<p><%= _("You can return to") %> <%= link_to _("home"), root_path %>
+<%= _('for upload a new file') %> </p>

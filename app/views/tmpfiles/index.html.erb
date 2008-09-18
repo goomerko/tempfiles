@@ -5,30 +5,32 @@
   <%= f.error_messages %>
 
   <p>
-    <%= f.label :uploaded_data, "Subir nuevo fichero:" %> <br/>
+    <%= f.label :uploaded_data, _("Upload new file:") %> <br/>
     <%= f.file_field :uploaded_data %>
   </p>
 
   <p>
-    <%= f.submit "Subir" %>
+    <%= f.submit _("Upload") %>
   </p>
 
 <% end %>
 
 
 <% unless @tmpfile_collection.empty? %>
-<hr/>
-  <p>Ficheros subidos:</p>
-<ul>
-  <% @tmpfile_collection.each do |tmpfile|%>
-    <li>
-      <p><%=h tmpfile.filename %></p>
-      <p>
-        <%= link_to "#{root_url}#{tmpfile.hexkey}",
-          "#{root_url}#{tmpfile.hexkey}"%>
-      </p>
-      <p>Caducidad <%= tmpfile.destroy_datetime %></p>
-    </li>
-  <% end %>
-</ul>
+  <hr/>
+  <p><%= _("Uploaded files:") %></p>
+  <ul>
+    <% @tmpfile_collection.each do |tmpfile|%>
+      <li>
+        <p><%=h tmpfile.filename %></p>
+        <p>
+          <%= link_to "#{root_url}#{tmpfile.hexkey}",
+            "#{root_url}#{tmpfile.hexkey}"%>
+        </p>
+        <p><%= _("The file will be destroyed on") %> 
+          <%= distance_of_time_in_words(Time.now,
+          tmpfile.destroy_datetime) %></p>
+      </li>
+    <% end %>
+  </ul>
 <% end %>
