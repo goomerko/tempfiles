@@ -32,4 +32,10 @@ class Tmpfile < ActiveRecord::Base
   def set_destroy_datetime
     self.destroy_datetime = Time.now + 3.days
   end
+
+
+  # Borra los ficheros ya caducados
+  def self.cleanup
+    Tmpfile.destroy_all(["destroy_datetime <= ?", Time.now])
+  end
 end

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd /var/tempfiles/deploy/current
+/opt/re/bin/ruby script/runner "Tempfile.cleanup"
+

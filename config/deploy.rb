@@ -1,6 +1,6 @@
 set :application, "TempFiles"
 set :repository, "git@github.com:goomerko/tempfiles.git"
-set :branch, :master
+set :branch, :deploy
 #set :deploy_via, :remote_cache
 set :ssh_options, { :forward_agent => true }
 
