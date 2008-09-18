@@ -14,10 +14,11 @@
 #
 
 require 'md5'
+MAX_SIZE = 100.megabytes
 
 class Tmpfile < ActiveRecord::Base
 
-  has_attachment :max_size => 50.megabytes,
+  has_attachment :max_size => MAX_SIZE,
     :path_prefix => "files"
 
   validates_as_attachment

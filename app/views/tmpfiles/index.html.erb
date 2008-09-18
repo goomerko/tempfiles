@@ -6,6 +6,7 @@
     <p>
       <%= f.label :uploaded_data, _("Upload new file:") %> <br/>
       <%= f.file_field :uploaded_data, :size => 'auto' %>
+      <br/><small>(<%= _("100 Mb max") %>)</small>
     </p>
     <p class="submit_buttons">
       <%= f.submit _("Upload") %>

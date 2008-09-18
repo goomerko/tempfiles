@@ -29,7 +29,7 @@ class TmpfilesController < ApplicationController
     if @tmpfile.save
       save_in_session @tmpfile
     else
-      flash[:error] = _("It's no possible to save the file")
+      flash[:error] = _("It's no possible to save the file, Please, check the file size")
     end
     
     redirect_to :action => :index, :new_tmpfile_id => @tmpfile.id

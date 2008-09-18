@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tmpfiles 1.0.0\n"
-"POT-Creation-Date: 2008-09-18 16:34+0200\n"
+"POT-Creation-Date: 2008-09-18 23:00+0200\n"
 "PO-Revision-Date: 2008-09-18 09:52+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,8 +49,8 @@ msgid "Tmpfile|Updated at"
 msgstr ""
 
 #: app/controllers/tmpfiles_controller.rb:32
-msgid "It's no possible to save the file"
-msgstr "No ha sido posible guardar el fichero"
+msgid "It's no possible to save the file, Please, check the file size"
+msgstr "No ha sido posible guardar el fichero, puede que te hayas pasado con el tamaño."
 
 #: app/views/tmpfiles/index.html.erb:7
 msgid "Upload new file:"
