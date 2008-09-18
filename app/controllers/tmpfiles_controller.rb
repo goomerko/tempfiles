@@ -40,8 +40,7 @@ class TmpfilesController < ApplicationController
   
   def find_tmpfile
     @tmpfile = Tmpfile.find_by_hexkey(params[:hexkey])
-
-    if @tmpfile.nil?
+    if @tmpfile.nil? || @tmpfile.cleanup_if_obsolete
       flash[:error] = "No existe el fichero seleccionado"
       redirect_to root_path
     end
@@ -68,7 +67,7 @@ class TmpfilesController < ApplicationController
     session[:tmpfiles] ||= Array.new
     session[:tmpfiles].reverse.each do |tmp_id|
       tmpfile = Tmpfile.find_by_id tmp_id
-      tmpfiles << tmpfile unless tmpfile.nil?
+      tmpfiles << tmpfile unless (tmpfile.nil? || tmpfile.cleanup_if_obsolete)
     end
     tmpfiles
   end
