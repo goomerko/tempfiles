@@ -26,4 +26,14 @@ namespace :deploy do
   task :restart do
     run "touch #{deploy_to}/current/tmp/restart.txt"
   end
+  
+  task :after_update_code, :roles => :app do
+    run "ln -nfs #{deploy_to}/shared/system/files #{release_path}/files"
+  end
+
+  task :after_setup, :roles => :app do
+    run "mkdir -p #{deploy_to}/shared/system/files"
+  end
+  
 end
+
