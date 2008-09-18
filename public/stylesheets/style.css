@@ -4,7 +4,7 @@ body { background-color: #fff;
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size:   13px;
+  font-size:   12px;
   line-height: 18px;
 }
 
@@ -14,7 +14,6 @@ pre {
 }
 
 a { color: #000; }
-a:visited { color: #666; }
 a:hover { color: #fff; background-color:#ff9800; }
 
 .fieldWithErrors {
@@ -57,6 +56,11 @@ a:hover { color: #fff; background-color:#ff9800; }
   margin: 0px auto;
   width: 460px;
 }
+
+#content h1{
+  text-align: center;
+  font-size: 24px;
+}
 /* Formularios */
 #tmpfile_form {
   background: transparent url("../images/tmpfile_form.png") no-repeat scroll center center;
@@ -73,7 +77,8 @@ a:hover { color: #fff; background-color:#ff9800; }
 }
 
 small{
-  color: silver;
+  color: #888;
+  font-style: oblique;
 }
 /* Listados */
 ul#tmpfile_collection{
@@ -90,16 +95,13 @@ ul#tmpfile_collection{
   padding-top: 10px;
   padding-left: 30px;
   padding-right: 10px;
+  padding-bottom: 15px;
 }
 
 .tmpfile_item label{
   font-weight: bold;
 }
 
-.tmpfile_item small{
-  float: right;
-  font-style: oblique;
-}
 
 .tmpfile_show_container{
   background: transparent url("../images/tmpfile_show.png") no-repeat scroll center center;
@@ -107,10 +109,11 @@ ul#tmpfile_collection{
   height: 173px;
 }
 
-.tmpfile_show_item{
+.tmpfile_show_item {
   padding-top: 12px;
   padding-left: 30px;
   padding-right: 10px;
+  padding-bottom: 20px;
 }
 
 .tmpfile_show_item label{
@@ -118,10 +121,6 @@ ul#tmpfile_collection{
   font-size: 12px;
 }
 
-.tmpfile_show_item small{
-  float: right;
-  font-style: oblique;
-}
 
 #download{
   text-align: center;

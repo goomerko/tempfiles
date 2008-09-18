@@ -17,17 +17,28 @@
 <% unless @tmpfile_collection.empty? %>
   <h2><%= _("Uploaded files:") %></h2>
   <% @tmpfile_collection.each do |tmpfile|%>
-    <div class="tmpfile_container">
+    <div id="item_<%=  tmpfile.id%>"class="tmpfile_container">
       <div class="tmpfile_item">
         <label><%=h tmpfile.filename %></label>
+        <br/>
+        <small><%= _("The file will be destroyed on") %>
+            <%= distance_of_time_in_words(Time.now,
+              tmpfile.destroy_datetime) %></small>
         <p>
           <%= link_to "#{root_url}#{tmpfile.hexkey}",
             "#{root_url}#{tmpfile.hexkey}"%>
         </p>
-        <small><%= _("The file will be destroyed on") %>
-          <%= distance_of_time_in_words(Time.now,
-            tmpfile.destroy_datetime) %></small>
       </div>
     </div>
   <% end %>
 <% end %>
+
+  <script type="text/javascript">
+    document.observe('dom:loaded', function(){
+      ele = $("item_<%=  @new_tmpfile_id %>");
+      if (ele != null){
+        new Effect.Pulsate("item_<%=  @new_tmpfile_id %>");
+      }
+
+    });
+  </script>

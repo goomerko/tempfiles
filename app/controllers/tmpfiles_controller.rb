@@ -6,6 +6,7 @@ class TmpfilesController < ApplicationController
   def index
     @tmpfile = Tmpfile.new
     @tmpfile_collection = get_tmpfiles_from_session
+    @new_tmpfile_id = params[:new_tmpfile_id]
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @tmpfile }
@@ -32,7 +33,7 @@ class TmpfilesController < ApplicationController
       flash[:error] = 'No se pudo guardar el fichero'
     end
     
-    redirect_to :action => :index
+    redirect_to :action => :index, :new_tmpfile_id => @tmpfile.id
   end
 
   ####### PRIVATE
