@@ -30,7 +30,7 @@ class Tmpfile < ActiveRecord::Base
   end
 
   def set_destroy_datetime
-    self.destroy_datetime = Time.now + 3.days
+    self.destroy_datetime = Time.now + 3.days - 2.second
   end
 
 
