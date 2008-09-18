@@ -27,10 +27,9 @@ class TmpfilesController < ApplicationController
   def create
     @tmpfile = Tmpfile.new(params[:tmpfile])
     if @tmpfile.save
-      flash[:notice] = 'Fichero guardado correctamente'
       save_in_session @tmpfile
     else
-      flash[:error] = 'No se pudo guardar el fichero'
+      flash[:error] = _("It's no possible to save the file")
     end
     
     redirect_to :action => :index, :new_tmpfile_id => @tmpfile.id

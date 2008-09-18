@@ -19,6 +19,17 @@
   <defs
      id="defs4">
     <linearGradient
+       id="linearGradient3210">
+      <stop
+         id="stop3212"
+         offset="0"
+         style="stop-color:#e6e3e3;stop-opacity:1;" />
+      <stop
+         id="stop3214"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient4689">
       <stop
          style="stop-color:#000000;stop-opacity:1;"
@@ -32,11 +43,11 @@
     <linearGradient
        id="linearGradient3247">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:#e6e3e3;stop-opacity:1;"
          offset="0"
          id="stop3249" />
       <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
+         style="stop-color:#ffffff;stop-opacity:0;"
          offset="1"
          id="stop3251" />
     </linearGradient>
@@ -82,11 +93,11 @@
        xlink:href="#linearGradient3175"
        id="linearGradient3231"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.9998989,0,0,1.07461,0.3553349,380.39435)"
-       x1="15.232182"
-       y1="136.64786"
-       x2="29.542267"
-       y2="136.64786" />
+       gradientTransform="matrix(0.9998989,0,0,1.07461,8.7275687,460.52859)"
+       x1="325.03616"
+       y1="33.080036"
+       x2="324.9924"
+       y2="86.563171" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3175"
@@ -119,13 +130,63 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3175"
-       id="linearGradient4755"
+       id="linearGradient2406"
        gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(47.248653,-5.6526225)"
        x1="297.83142"
        y1="33.050735"
        x2="297.88284"
-       y2="48.816437"
-       gradientTransform="translate(-1.9071884,-0.9535942)" />
+       y2="48.816437" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3247"
+       id="linearGradient3189"
+       x1="476.19995"
+       y1="188.06122"
+       x2="475.48703"
+       y2="88.278442"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-132.66673,46.531178)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3175"
+       id="linearGradient3193"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0006919,0,0,0.5619366,0.9713289,260.5447)"
+       x1="15.232182"
+       y1="136.64786"
+       x2="29.542267"
+       y2="136.64786" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3210"
+       id="linearGradient3208"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0006919,0,0,0.5619366,0.4217372,260.37909)"
+       x1="336.37122"
+       y1="240.52182"
+       x2="336.3873"
+       y2="123.07203" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3175"
+       id="linearGradient3301"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9998989,0,0,1.07461,9.1569196,460.59457)"
+       x1="15.232182"
+       y1="136.64786"
+       x2="29.542267"
+       y2="136.64786" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3247"
+       id="linearGradient3305"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9998989,0,0,1.07461,7.5688173,-753.08494)"
+       x1="325.03616"
+       y1="33.080036"
+       x2="324.9924"
+       y2="105.17458" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -134,14 +195,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0486641"
-     inkscape:cx="291.88113"
-     inkscape:cy="804.6418"
+     inkscape:zoom="0.83609705"
+     inkscape:cx="351.40099"
+     inkscape:cy="626.18813"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1279"
-     inkscape:window-height="725"
+     inkscape:window-width="1399"
+     inkscape:window-height="974"
      inkscape:window-x="0"
      inkscape:window-y="25" />
   <metadata
@@ -160,17 +221,64 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g4758"
-       inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_form.png"
-       inkscape:export-xdpi="67"
-       inkscape:export-ydpi="67">
+       id="g3307">
+      <rect
+         inkscape:export-ydpi="66.790001"
+         inkscape:export-xdpi="66.790001"
+         inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_show.png"
+         ry="13.871403"
+         y="505.31314"
+         x="33.147972"
+         height="220.87434"
+         width="598.33569"
+         id="rect3241"
+         style="fill:#dfd5d5;fill-opacity:1;stroke:none;stroke-width:1.71574771;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         inkscape:export-ydpi="66.790001"
+         inkscape:export-xdpi="66.790001"
+         inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_show.png"
+         ry="13.871403"
+         y="496.9346"
+         x="24.527855"
+         height="220.87434"
+         width="598.33569"
+         id="rect3213"
+         style="fill:url(#linearGradient3231);fill-opacity:1;stroke:#ff9800;stroke-width:1.71574771000000004;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         transform="scale(1,-1)"
+         inkscape:export-ydpi="66.790001"
+         inkscape:export-xdpi="66.790001"
+         inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_show.png"
+         ry="13.871403"
+         y="-716.67889"
+         x="23.369102"
+         height="220.87434"
+         width="598.33569"
+         id="rect3303"
+         style="fill:url(#linearGradient3305);fill-opacity:1;stroke:none;stroke-width:1.71574771000000004;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="66.790001"
+         inkscape:export-xdpi="66.790001"
+         inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_show.png"
+         transform="translate(-103.87846,63.493658)"
+         d="M 154.48226,443.49231 A 15.734303,15.734303 0 1 1 123.01365,443.49231 A 15.734303,15.734303 0 1 1 154.48226,443.49231 z"
+         sodipodi:ry="15.734303"
+         sodipodi:rx="15.734303"
+         sodipodi:cy="443.49231"
+         sodipodi:cx="138.74796"
+         id="path3215"
+         style="fill:#fff9f9;fill-opacity:1;stroke:#ff9800;stroke-width:1.48000002;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3196">
       <rect
          inkscape:export-ydpi="67.489998"
          inkscape:export-xdpi="67.489998"
          inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_form.png"
          ry="12.908314"
-         y="43.956612"
-         x="24.838272"
+         y="38.235046"
+         x="74.425171"
          height="205.53908"
          width="598.39624"
          id="rect4737"
@@ -180,86 +288,78 @@
          inkscape:export-xdpi="67.489998"
          inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_form.png"
          ry="12.908314"
-         y="32.92474"
-         x="13.894697"
+         y="28.225712"
+         x="63.050541"
          height="205.53908"
          width="598.39624"
          id="rect2383"
-         style="fill:url(#linearGradient4755);fill-opacity:1;stroke:#ff9800;stroke-width:1.6551981;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:url(#linearGradient2406);fill-opacity:1;stroke:#ff9800;stroke-width:1.6551981;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         inkscape:export-ydpi="67.489998"
+         inkscape:export-xdpi="67.489998"
+         inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_form.png"
+         ry="12.908314"
+         y="28.225712"
+         x="63.050541"
+         height="205.53908"
+         width="598.39624"
+         id="rect2409"
+         style="fill:url(#linearGradient3189);fill-opacity:1;stroke:none;stroke-width:1.6551981;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       id="g4741"
-       transform="translate(0,12.396724)">
-      <rect
-         inkscape:export-ydpi="67.489998"
-         inkscape:export-xdpi="67.489998"
-         inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
-         ry="7.253654"
-         y="275.6022"
-         x="23.86331"
-         height="115.49993"
-         width="598.81024"
-         id="rect4733"
-         style="fill:#dfd5d5;fill-opacity:1;stroke:none;stroke-width:1.24120581;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         inkscape:export-ydpi="67.489998"
-         inkscape:export-xdpi="67.489998"
-         inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
-         ry="7.253654"
-         y="267.18546"
-         x="16.784147"
-         height="115.49993"
-         width="598.81024"
-         id="rect3201"
-         style="fill:url(#linearGradient4746);fill-opacity:1;stroke:#ff9800;stroke-width:1.24120581;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="67"
-         inkscape:export-xdpi="67"
-         inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
-         transform="translate(-115.38489,-170.0182)"
-         d="M 154.48226,443.49231 A 15.734303,15.734303 0 1 1 123.01365,443.49231 A 15.734303,15.734303 0 1 1 154.48226,443.49231 z"
-         sodipodi:ry="15.734303"
-         sodipodi:rx="15.734303"
-         sodipodi:cy="443.49231"
-         sodipodi:cx="138.74796"
-         id="path3205"
-         style="fill:#fff9f9;fill-opacity:1;stroke:#ff9800;stroke-width:1.48000002;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         sodipodi:type="arc" />
+       id="g3286">
+      <g
+         id="g3216">
+        <g
+           id="g3293">
+          <rect
+             inkscape:export-ydpi="67.489998"
+             inkscape:export-xdpi="67.489998"
+             inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
+             ry="7.253654"
+             y="287.99893"
+             x="23.86331"
+             height="115.49993"
+             width="598.81024"
+             id="rect4733"
+             style="fill:#dfd5d5;fill-opacity:1;stroke:none;stroke-width:1.24120581;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             inkscape:export-ydpi="67.489998"
+             inkscape:export-xdpi="67.489998"
+             inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
+             ry="7.253654"
+             y="279.58218"
+             x="16.784147"
+             height="115.49993"
+             width="598.81024"
+             id="rect3201"
+             style="fill:url(#linearGradient3193);fill-opacity:1;stroke:#ff9800;stroke-width:1.24120581;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             inkscape:export-ydpi="67.489998"
+             inkscape:export-xdpi="67.489998"
+             inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
+             ry="7.253654"
+             y="279.41656"
+             x="16.234556"
+             height="115.49993"
+             width="598.81024"
+             id="rect3206"
+             style="fill:url(#linearGradient3208);fill-opacity:1;stroke:#ff9800;stroke-width:1.24120581;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:export-ydpi="67"
+             inkscape:export-xdpi="67"
+             inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
+             transform="translate(-115.38489,-157.62148)"
+             d="M 154.48226,443.49231 A 15.734303,15.734303 0 1 1 123.01365,443.49231 A 15.734303,15.734303 0 1 1 154.48226,443.49231 z"
+             sodipodi:ry="15.734303"
+             sodipodi:rx="15.734303"
+             sodipodi:cy="443.49231"
+             sodipodi:cx="138.74796"
+             id="path3205"
+             style="fill:#fff9f9;fill-opacity:1;stroke:#ff9800;stroke-width:1.48000002;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             sodipodi:type="arc" />
+        </g>
+      </g>
     </g>
-    <rect
-       style="fill:#dfd5d5;fill-opacity:1;stroke:none;stroke-width:1.71574771000000004;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3241"
-       width="598.33569"
-       height="220.87434"
-       x="24.775738"
-       y="425.17889"
-       ry="13.871403"
-       inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_show.png"
-       inkscape:export-xdpi="66.790001"
-       inkscape:export-ydpi="66.790001" />
-    <rect
-       style="fill:url(#linearGradient3231);fill-opacity:1;stroke:#ff9800;stroke-width:1.71574771;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3213"
-       width="598.33569"
-       height="220.87434"
-       x="16.155621"
-       y="416.80035"
-       ry="13.871403"
-       inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_show.png"
-       inkscape:export-xdpi="66.790001"
-       inkscape:export-ydpi="66.790001" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#fff9f9;fill-opacity:1;stroke:#ff9800;stroke-width:1.48000002;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3215"
-       sodipodi:cx="138.74796"
-       sodipodi:cy="443.49231"
-       sodipodi:rx="15.734303"
-       sodipodi:ry="15.734303"
-       d="M 154.48226,443.49231 A 15.734303,15.734303 0 1 1 123.01365,443.49231 A 15.734303,15.734303 0 1 1 154.48226,443.49231 z"
-       transform="translate(-112.25069,-16.64058)"
-       inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_show.png"
-       inkscape:export-xdpi="66.790001"
-       inkscape:export-ydpi="66.790001" />
   </g>
 </svg>

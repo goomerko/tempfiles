@@ -5,7 +5,7 @@
 
     <p>
       <%= f.label :uploaded_data, _("Upload new file:") %> <br/>
-      <%= f.file_field :uploaded_data %>
+      <%= f.file_field :uploaded_data, :size => 'auto' %>
     </p>
     <p class="submit_buttons">
       <%= f.submit _("Upload") %>

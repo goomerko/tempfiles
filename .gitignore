@@ -4,3 +4,4 @@ nbproject/*
 db/development.sqlite3
 db/schema.rb
 doc/plugins/*
+files/*
