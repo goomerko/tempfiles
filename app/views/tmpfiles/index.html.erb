@@ -1,36 +1,33 @@
-<h1> TempFiles </h1>
+<div id="tmpfile_form">
+  <% form_for :tmpfile, :url => {:action => 'create'},
+    :html => {:multipart => true} do |f| %>
+    <%= f.error_messages %>
 
-<% form_for :tmpfile, :url => {:action => 'create'},
-  :html => {:multipart => true} do |f| %>
-  <%= f.error_messages %>
+    <p>
+      <%= f.label :uploaded_data, _("Upload new file:") %> <br/>
+      <%= f.file_field :uploaded_data %>
+    </p>
+    <p class="submit_buttons">
+      <%= f.submit _("Upload") %>
+    </p>
 
-  <p>
-    <%= f.label :uploaded_data, _("Upload new file:") %> <br/>
-    <%= f.file_field :uploaded_data %>
-  </p>
-
-  <p>
-    <%= f.submit _("Upload") %>
-  </p>
-
-<% end %>
-
+  <% end %>
+</div>
 
 <% unless @tmpfile_collection.empty? %>
-  <hr/>
-  <p><%= _("Uploaded files:") %></p>
-  <ul>
-    <% @tmpfile_collection.each do |tmpfile|%>
-      <li>
-        <p><%=h tmpfile.filename %></p>
+  <h2><%= _("Uploaded files:") %></h2>
+  <% @tmpfile_collection.each do |tmpfile|%>
+    <div class="tmpfile_container">
+      <div class="tmpfile_item">
+        <label><%=h tmpfile.filename %></label>
         <p>
           <%= link_to "#{root_url}#{tmpfile.hexkey}",
             "#{root_url}#{tmpfile.hexkey}"%>
         </p>
-        <p><%= _("The file will be destroyed on") %> 
+        <small><%= _("The file will be destroyed on") %>
           <%= distance_of_time_in_words(Time.now,
-          tmpfile.destroy_datetime) %></p>
-      </li>
-    <% end %>
-  </ul>
+            tmpfile.destroy_datetime) %></small>
+      </div>
+    </div>
+  <% end %>
 <% end %>

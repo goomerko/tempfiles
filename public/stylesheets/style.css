@@ -1,0 +1,142 @@
+body { background-color: #fff; 
+  background: transparent url("../images/background.jpg") repeat scroll 0 0;
+  color: #333; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+pre {
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#ff9800; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+#content{
+  margin: 0px auto;
+  width: 460px;
+}
+/* Formularios */
+#tmpfile_form {
+  background: transparent url("../images/tmpfile_form.png") no-repeat scroll center center;
+  width: 460px;
+  height: 165px;
+}
+
+#tmpfile_form form {
+  padding: 20px 20px 20px 20px;
+}
+
+.submit_buttons {
+  float: right;
+}
+
+small{
+  color: silver;
+}
+/* Listados */
+ul#tmpfile_collection{
+  list-style: none;
+}
+
+.tmpfile_container {
+  background: transparent url("../images/tmpfile_item.png") no-repeat scroll center center;
+  width: 460px;
+  height: 100px;
+}
+
+.tmpfile_container .tmpfile_item{
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.tmpfile_item label{
+  font-weight: bold;
+}
+
+.tmpfile_item small{
+  float: right;
+  font-style: oblique;
+}
+
+.tmpfile_show_container{
+  background: transparent url("../images/tmpfile_show.png") no-repeat scroll center center;
+  width: 455px;
+  height: 173px;
+}
+
+.tmpfile_show_item{
+  padding-top: 12px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.tmpfile_show_item label{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.tmpfile_show_item small{
+  float: right;
+  font-style: oblique;
+}
+
+#download{
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,11 +1,18 @@
-<h1><%= @tmpfile.filename %></h1>
+<div class="tmpfile_show_container">
+  <div class="tmpfile_show_item">
+    <label><%= @tmpfile.filename %></label>
 
-<h2><%= link_to _("Download"), :action => 'download',
-  :hexkey => @tmpfile.hexkey%></h2>
-  
-<p><%= _("The file will be destroyed on") %>
-  <%= distance_of_time_in_words(Time.now,
-    @tmpfile.destroy_datetime) %></p>
 
-<p><%= _("You can return to") %> <%= link_to _("home"), root_path %>
-<%= _('for upload a new file') %> </p>
+    <div id="download"><%= link_to _("Download"), :action => 'download',
+      :hexkey => @tmpfile.hexkey%></div>
+
+    <p><%= _("You can return to") %> <%= link_to _("home"), root_path %>
+    <%= _('for upload a new file') %> </p>
+    
+    <small><%= _("The file will be destroyed on") %>
+      <%= distance_of_time_in_words(Time.now,
+        @tmpfile.destroy_datetime) %></small>
+
+
+  </div>
+</div>
