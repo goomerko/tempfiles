@@ -187,6 +187,96 @@
        y1="33.080036"
        x2="324.9924"
        y2="105.17458" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3175"
+       id="linearGradient3352"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9998989,0,0,1.07461,8.7275687,460.52859)"
+       x1="325.03616"
+       y1="33.080036"
+       x2="324.9924"
+       y2="86.563171" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3247"
+       id="linearGradient3354"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9998989,0,0,1.07461,7.5688173,-753.08494)"
+       x1="325.03616"
+       y1="33.080036"
+       x2="324.9924"
+       y2="105.17458" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3175"
+       id="linearGradient3361"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9998989,0,0,1.07461,8.7275687,460.52859)"
+       x1="325.03616"
+       y1="33.080036"
+       x2="324.9924"
+       y2="76.546234" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3175"
+       id="linearGradient3363"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0006919,0,0,0.5619366,0.9713289,260.5447)"
+       x1="15.232182"
+       y1="136.64786"
+       x2="29.542267"
+       y2="136.64786" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3210"
+       id="linearGradient3365"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0006919,0,0,0.5619366,0.4217372,260.37909)"
+       x1="336.37122"
+       y1="240.52182"
+       x2="336.3873"
+       y2="123.07203" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3175"
+       id="linearGradient3379"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0006919,0,0,0.5619366,0.9713289,260.5447)"
+       x1="15.232182"
+       y1="136.64786"
+       x2="29.542267"
+       y2="136.64786" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3210"
+       id="linearGradient3381"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0006919,0,0,0.5619366,0.4217372,260.37909)"
+       x1="336.37122"
+       y1="240.52182"
+       x2="336.3873"
+       y2="123.07203" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3210"
+       id="linearGradient3385"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0006919,0,0,0.5619366,0.4217372,260.37909)"
+       x1="336.37122"
+       y1="240.52182"
+       x2="336.3873"
+       y2="123.07203" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3175"
+       id="linearGradient3388"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0006919,0,0,0.5619366,0.9713289,260.5447)"
+       x1="327.18106"
+       y1="32.773949"
+       x2="327.14868"
+       y2="95.61618" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -221,7 +311,10 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g3307">
+       id="g3307"
+       inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_show.png"
+       inkscape:export-xdpi="66.790001"
+       inkscape:export-ydpi="66.790001">
       <rect
          inkscape:export-ydpi="66.790001"
          inkscape:export-xdpi="66.790001"
@@ -243,7 +336,7 @@
          height="220.87434"
          width="598.33569"
          id="rect3213"
-         style="fill:url(#linearGradient3231);fill-opacity:1;stroke:#ff9800;stroke-width:1.71574771000000004;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:url(#linearGradient3361);fill-opacity:1;stroke:#ff9800;stroke-width:1.71574771000000004;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          transform="scale(1,-1)"
          inkscape:export-ydpi="66.790001"
@@ -255,7 +348,7 @@
          height="220.87434"
          width="598.33569"
          id="rect3303"
-         style="fill:url(#linearGradient3305);fill-opacity:1;stroke:none;stroke-width:1.71574771000000004;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:url(#linearGradient3354);fill-opacity:1;stroke:none;stroke-width:1.71574771;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
          inkscape:export-ydpi="66.790001"
          inkscape:export-xdpi="66.790001"
@@ -271,7 +364,10 @@
          sodipodi:type="arc" />
     </g>
     <g
-       id="g3196">
+       id="g3196"
+       inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_form.png"
+       inkscape:export-xdpi="67"
+       inkscape:export-ydpi="67">
       <rect
          inkscape:export-ydpi="67.489998"
          inkscape:export-xdpi="67.489998"
@@ -309,56 +405,53 @@
     <g
        id="g3286">
       <g
-         id="g3216">
-        <g
-           id="g3293">
-          <rect
-             inkscape:export-ydpi="67.489998"
-             inkscape:export-xdpi="67.489998"
-             inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
-             ry="7.253654"
-             y="287.99893"
-             x="23.86331"
-             height="115.49993"
-             width="598.81024"
-             id="rect4733"
-             style="fill:#dfd5d5;fill-opacity:1;stroke:none;stroke-width:1.24120581;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <rect
-             inkscape:export-ydpi="67.489998"
-             inkscape:export-xdpi="67.489998"
-             inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
-             ry="7.253654"
-             y="279.58218"
-             x="16.784147"
-             height="115.49993"
-             width="598.81024"
-             id="rect3201"
-             style="fill:url(#linearGradient3193);fill-opacity:1;stroke:#ff9800;stroke-width:1.24120581;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <rect
-             inkscape:export-ydpi="67.489998"
-             inkscape:export-xdpi="67.489998"
-             inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
-             ry="7.253654"
-             y="279.41656"
-             x="16.234556"
-             height="115.49993"
-             width="598.81024"
-             id="rect3206"
-             style="fill:url(#linearGradient3208);fill-opacity:1;stroke:#ff9800;stroke-width:1.24120581;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <path
-             inkscape:export-ydpi="67"
-             inkscape:export-xdpi="67"
-             inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
-             transform="translate(-115.38489,-157.62148)"
-             d="M 154.48226,443.49231 A 15.734303,15.734303 0 1 1 123.01365,443.49231 A 15.734303,15.734303 0 1 1 154.48226,443.49231 z"
-             sodipodi:ry="15.734303"
-             sodipodi:rx="15.734303"
-             sodipodi:cy="443.49231"
-             sodipodi:cx="138.74796"
-             id="path3205"
-             style="fill:#fff9f9;fill-opacity:1;stroke:#ff9800;stroke-width:1.48000002;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             sodipodi:type="arc" />
-        </g>
+         id="g3372">
+        <rect
+           style="fill:#dfd5d5;fill-opacity:1;stroke:none;stroke-width:1.24120581;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4733"
+           width="598.81024"
+           height="115.49993"
+           x="23.86331"
+           y="287.99893"
+           ry="7.253654"
+           inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
+           inkscape:export-xdpi="67.489998"
+           inkscape:export-ydpi="67.489998" />
+        <rect
+           style="fill:url(#linearGradient3388);fill-opacity:1;stroke:#ff9800;stroke-width:1.24120581000000008;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect3201"
+           width="598.81024"
+           height="115.49993"
+           x="16.784147"
+           y="279.58218"
+           ry="7.253654"
+           inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
+           inkscape:export-xdpi="67.489998"
+           inkscape:export-ydpi="67.489998" />
+        <rect
+           style="fill:url(#linearGradient3385);fill-opacity:1;stroke:#ff9800;stroke-width:1.24120581;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect3206"
+           width="598.81024"
+           height="115.49993"
+           x="16.234556"
+           y="279.41656"
+           ry="7.253654"
+           inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
+           inkscape:export-xdpi="67.489998"
+           inkscape:export-ydpi="67.489998" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#fff9f9;fill-opacity:1;stroke:#ff9800;stroke-width:1.48000002;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path3205"
+           sodipodi:cx="138.74796"
+           sodipodi:cy="443.49231"
+           sodipodi:rx="15.734303"
+           sodipodi:ry="15.734303"
+           d="M 154.48226,443.49231 A 15.734303,15.734303 0 1 1 123.01365,443.49231 A 15.734303,15.734303 0 1 1 154.48226,443.49231 z"
+           transform="translate(-115.38489,-157.62148)"
+           inkscape:export-filename="/home/gcoronel/Prog/git/tempfiles/public/images/tmpfile_item.png"
+           inkscape:export-xdpi="67"
+           inkscape:export-ydpi="67" />
       </g>
     </g>
   </g>
