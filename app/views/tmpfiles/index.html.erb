@@ -1,3 +1,7 @@
+<% content_for :title do %>
+  <%=  _('Listing') %>
+<% end %>
+
 <div id="tmpfile_form">
   <% form_for :tmpfile, :url => {:action => 'create'},
     :html => {:multipart => true} do |f| %>
@@ -23,8 +27,8 @@
         <label><%=h tmpfile.filename %></label>
         <br/>
         <small><%= _("The file will be destroyed on") %>
-            <%= distance_of_time_in_words(Time.now,
-              tmpfile.destroy_datetime) %></small>
+          <%= distance_of_time_in_words(Time.now,
+            tmpfile.destroy_datetime) %></small>
         <p>
           <%= link_to "#{root_url}#{tmpfile.hexkey}",
             "#{root_url}#{tmpfile.hexkey}"%>
@@ -34,12 +38,12 @@
   <% end %>
 <% end %>
 
-  <script type="text/javascript">
-    document.observe('dom:loaded', function(){
-      ele = $("item_<%=  @new_tmpfile_id %>");
-      if (ele != null){
-        new Effect.Pulsate("item_<%=  @new_tmpfile_id %>");
-      }
+<script type="text/javascript">
+  document.observe('dom:loaded', function(){
+    ele = $("item_<%=  @new_tmpfile_id %>");
+    if (ele != null){
+      new Effect.Pulsate("item_<%=  @new_tmpfile_id %>");
+    }
 
-    });
-  </script>
+  });
+</script>

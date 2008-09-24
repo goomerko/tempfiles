@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tmpfiles 1.0.0\n"
-"POT-Creation-Date: 2008-09-18 23:00+0200\n"
+"POT-Creation-Date: 2008-09-24 13:53+0200\n"
 "PO-Revision-Date: 2008-09-18 09:52+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,34 +52,42 @@ msgstr ""
 msgid "It's no possible to save the file, Please, check the file size"
 msgstr ""
 
-#: app/views/tmpfiles/index.html.erb:7
-msgid "Upload new file:"
+#: app/views/tmpfiles/index.html.erb:2
+msgid "Listing"
 msgstr ""
 
 #: app/views/tmpfiles/index.html.erb:11
+msgid "Upload new file:"
+msgstr ""
+
+#: app/views/tmpfiles/index.html.erb:13
+msgid "100 Mb max"
+msgstr ""
+
+#: app/views/tmpfiles/index.html.erb:16
 msgid "Upload"
 msgstr ""
 
-#: app/views/tmpfiles/index.html.erb:18
+#: app/views/tmpfiles/index.html.erb:23
 msgid "Uploaded files:"
 msgstr ""
 
-#: app/views/tmpfiles/index.html.erb:24 app/views/tmpfiles/show.html.erb:5
+#: app/views/tmpfiles/index.html.erb:29 app/views/tmpfiles/show.html.erb:9
 msgid "The file will be destroyed on"
 msgstr ""
 
-#: app/views/tmpfiles/show.html.erb:9
+#: app/views/tmpfiles/show.html.erb:13
 msgid "Download"
 msgstr ""
 
-#: app/views/tmpfiles/show.html.erb:12
+#: app/views/tmpfiles/show.html.erb:16
 msgid "You can return to"
 msgstr ""
 
-#: app/views/tmpfiles/show.html.erb:12
+#: app/views/tmpfiles/show.html.erb:16
 msgid "home"
 msgstr ""
 
-#: app/views/tmpfiles/show.html.erb:13
+#: app/views/tmpfiles/show.html.erb:17
 msgid "for upload a new file"
 msgstr ""

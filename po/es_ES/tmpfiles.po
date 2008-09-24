@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tmpfiles 1.0.0\n"
-"POT-Creation-Date: 2008-09-18 23:00+0200\n"
+"POT-Creation-Date: 2008-09-24 13:53+0200\n"
 "PO-Revision-Date: 2008-09-18 09:52+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,36 +50,46 @@ msgstr ""
 
 #: app/controllers/tmpfiles_controller.rb:32
 msgid "It's no possible to save the file, Please, check the file size"
-msgstr "No ha sido posible guardar el fichero, puede que te hayas pasado con el tamaño."
+msgstr ""
+"No ha sido posible guardar el fichero, puede que te hayas pasado con el "
+"tamaño."
 
-#: app/views/tmpfiles/index.html.erb:7
+#: app/views/tmpfiles/index.html.erb:2
+msgid "Listing"
+msgstr "Listado"
+
+#: app/views/tmpfiles/index.html.erb:11
 msgid "Upload new file:"
 msgstr "Subir nuevo fichero:"
 
-#: app/views/tmpfiles/index.html.erb:11
+#: app/views/tmpfiles/index.html.erb:13
+msgid "100 Mb max"
+msgstr ""
+
+#: app/views/tmpfiles/index.html.erb:16
 msgid "Upload"
 msgstr "Subir"
 
-#: app/views/tmpfiles/index.html.erb:18
+#: app/views/tmpfiles/index.html.erb:23
 msgid "Uploaded files:"
 msgstr "Ficheros subidos:"
 
-#: app/views/tmpfiles/index.html.erb:24 app/views/tmpfiles/show.html.erb:5
+#: app/views/tmpfiles/index.html.erb:29 app/views/tmpfiles/show.html.erb:9
 msgid "The file will be destroyed on"
 msgstr "El fichero se borrará en"
 
-#: app/views/tmpfiles/show.html.erb:9
+#: app/views/tmpfiles/show.html.erb:13
 msgid "Download"
 msgstr "Descargar"
 
-#: app/views/tmpfiles/show.html.erb:12
+#: app/views/tmpfiles/show.html.erb:16
 msgid "You can return to"
 msgstr "Puedes volver al"
 
-#: app/views/tmpfiles/show.html.erb:12
+#: app/views/tmpfiles/show.html.erb:16
 msgid "home"
 msgstr "inicio"
 
-#: app/views/tmpfiles/show.html.erb:13
+#: app/views/tmpfiles/show.html.erb:17
 msgid "for upload a new file"
 msgstr "para subir un fichero nuevo"
